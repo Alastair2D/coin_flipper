@@ -16,3 +16,9 @@ A user would call #tails_count and see how many tails have occurred
 
 NB: User stories can mislead good development.  Think about them not as an isolated thing and think about a user journey - think about the interaction a user would have with the app, what would make logical sense?  
 
+Step 2: After establishing classes you want to create and how objects within the domain are going to interact, create files and structure - git, rspec, first commit.
+
+Step 3: Write a failing unit test
+
+Step 4: Write a feature test that produces the same error
+

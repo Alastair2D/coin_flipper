@@ -23,5 +23,8 @@ let(:game) { CoinFlipper.new }
     # Everything that happens in Ruby happens within the context of Kernel
     # Kernel.methods shows all methods available 
     # e.g. Numeric.methods or Array.methods
+    # When Kernel receives e.g. rand(1..10) it allows it to return 3
+
+    # A primary user isn't necessarily a person
 
 end
